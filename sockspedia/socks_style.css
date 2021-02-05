@@ -1,0 +1,84 @@
+html{
+	background-color: black;
+	font-family: 'Noto Sans KR', sans-serif;
+	word-break: keep-all;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+
+body{
+	text-align: center;
+	margin: 100px;
+	background-size: center;
+}
+
+
+
+a { text-decoration: none;} 
+a { color:white }
+a { font-weight: bold}
+a:link{text-decoration: none;}
+a:hover{font-size:130%}
+a:hover{color: black}
+a:hover{
+	width: 60%;
+	font-size:130%;
+}
+
+
+img{
+	width: 300px;
+}
+
+.background:hover{
+	background-color:white;
+	font-size:130%;}
+#red:hover{
+background-color: red;}
+#green:hover{
+background-color: green;}
+.bluesocks:hover{
+	transform: scale(2.5);}
+#blue:hover{
+background-color: blue;}
+.purplesocks:hover{
+	transform: scale(2.5);}
+#purple:hover{
+background-color: purple;}
+.blackandwhitesocks:hover{
+	width:50%;}
+
+#blackwhite:hover{
+background-color: grey;}
+
+
+.redsocks:hover{
+	transform: scale(2.5);}
+.longsocks:hover{
+	transform: scale(2.5)}
+.middlesocks:hover{
+	transform: scale(2.5);}
+.greensocks:hover{
+	transform: scale(2.5);}
+.nopatternsocks:hover{
+	transform: scale(2.5);}
+.animalflowersocks:hover{
+	transform: scale(2.5);}
+.geometricsocks:hover{
+	transform: scale(2.5);}
+.typesocks:hover{
+	transform: scale(2.5);}
+.abstractsocks:hover{
+	transform: scale(2.5);}
+.shoppedsocks:hover{
+	transform: scale(2.5);}
+.giftpresentedsocks:hover{
+	transform: scale(2.5);}
+
+
+
+
+
