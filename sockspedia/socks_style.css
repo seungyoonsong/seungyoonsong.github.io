@@ -1,129 +1,109 @@
 html{
-	background-color: black;
 	font-family: 'Noto Sans KR', sans-serif;
 	word-break: keep-all;
-	font-size: 20px;
-	color: white;
-
+	font-size: 18pt;
 }
-
-
 
 body{
 	text-align: center;
-	margin: 100px;
+	margin: 20px;
 	background-size: center;
+	background-color: silver;
 }
 
-
-
-a { text-decoration: none;} 
-a { color:white }
-a { font-weight: bold}
-a:link{text-decoration: none;}
-a:hover{font-size:130%}
-a:hover{color: black}
-a:hover{
-	width: 60%;
-	font-size:130%;
+h1{
+	font-size: 18pt;
+	font-weight: normal;
+	background: yellow;
+	display: inline-block;
+	text-align: left;
 }
 
+a{
+	color: yellow;
+	text-decoration: underline;
+} 
+
+
+a:visited{
+	color: yellow
+}
 
 img{
-	width: 300px;
+	width: 60vw;
 }
 
-.background:hover{
-	background-color:white;
-	font-size:130%;}
 #red:hover{
 background-color: red;}
 #green:hover{
 background-color: green;}
-.bluesocks:hover{
-	transform: scale(2.5);}
 #blue:hover{
 background-color: blue;}
-.purplesocks:hover{
-	transform: scale(2.5);}
 #purple:hover{
 background-color: purple;}
-.blackandwhitesocks:hover{
-	width:50%;}
-
 #blackwhite:hover{
 background-color: grey;}
 
-
-.redsocks:hover{
-	transform: scale(2.5);}
-.longsocks:hover{
-	transform: scale(2.5)}
-.middlesocks:hover{
-	transform: scale(2.5);}
-.greensocks:hover{
-	transform: scale(2.5);}
-.nopatternsocks:hover{
-	transform: scale(2.5);}
-.animalflowersocks:hover{
-	transform: scale(2.5);}
-.geometricsocks:hover{
-	transform: scale(2.5);}
-.typesocks:hover{
-	transform: scale(2.5);}
-.abstractsocks:hover{
-	transform: scale(2.5);}
-.shoppedsocks:hover{
-	transform: scale(2.5);}
-.giftpresentedsocks:hover{
-	transform: scale(2.5);}
-
-	.formobile{
-display: none;
+.redsocks{
+	color: red;
+}
+.greensocks{
+	color: green;
+}
+.bluesocks{
+	color: blue;
+}
+.purplesocks{
+	color: purple;
+}
+.blackandwhitesocks{
+	color: silver;
+	background-color: #2E2E2E;
+}
+.animalflowersocks{
+	background-image: url("nature .jpg");
+	margin: 20px;
+	background-size: 100%;
+	color: white;
+	text-shadow: 2px 2px 2px black;
 }
 
-@media screen and (max-width: 700px){
-.formobile{
-display: block;
-z-index: 10000;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-margin: 0;
-padding: 0;
-background-color: white;
-box-sizing: border-box;
-overflow: hidden;
-text-align: center;
+.geometricsocks{
+    background-image: url("geometric .jpg");
+    margin: 20px;
+	background-size: 100%;
+	color: black;
+	text-shadow: 2px 2px 2px white;
 }
 
-.formobile-p{
-display: block;
-z-index: 10001;
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-font-size: 15px;
-font-weight: normal;
-line-height: 1.4;
-color: black;
-background-color: white;
--webkit-box-sizing: inherit;
-box-sizing: inherit;
-text-decoration: none;
-overflow: hidden;
-text-align: center;
-}
+.typesocks{
+    background-image: url("text.jpg");
+	background-size: 100%;
 }
 
+.abstractsocks{
+    background-image: url("abstract .jpg");
+	background-size: 120%;
+	color: white;
+}
 
+.shoppedsocks{
+	background-image: url("Shop .mp4");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
 
+.shoppedsocks a:hover{
+	filter: hue-rotate(90deg);
+	background-color: rgba(0,0,0,0);
+}
 
-
-
+.giftpresentedsocks{
+    background-image: url("video.mp4");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
